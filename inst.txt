@@ -1,0 +1,7 @@
+### Instalar dependencias
+- npm create vite@latest
+- npm install
+- npm i react-router-dom axios react-icons react scroll
+
+### Borrar carpetas y elementos predeterminados de vite
+
