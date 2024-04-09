@@ -2,6 +2,24 @@
 - npm create vite@latest
 - npm install
 - npm i react-router-dom axios react-icons react scroll
+- npm i react-hot-toast
 
 ### Borrar carpetas y elementos predeterminados de vite
+- Dejar app.cc, ap.jsx main.jsx
 
+### App.jsx
+- importar librerías: BrowserRouter from "react-router-dom" / Toaster from "react-hot-toast"
+
+### Carpeta pages
+- Creación de Home, NotFound, Success
+
+### Uso de pages en app.jsx
+- Importar y usar las pages dentro de <Routes/>
+
+### Cargue de código css en App.css
+
+### restApi.json
+- Creación archivo Json / Contiene la descripción de los diferentes conjuntos de datos Platos, equipo de trabajo, calificaciones, y rutas del navbar
+
+### Carpeta components
+- HeroSection (Contiene el componente que ira en el home de la pagina) -> se importa en ./pages/Home
