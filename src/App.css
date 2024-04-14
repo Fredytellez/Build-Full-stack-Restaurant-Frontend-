@@ -541,6 +541,7 @@ nav svg {
   padding: 20px 12.5px;
   margin-bottom: 12px;
   position: relative;
+  cursor: pointer;
 }
 .menu .container .dishes_container .card img {
   width: 100%;
