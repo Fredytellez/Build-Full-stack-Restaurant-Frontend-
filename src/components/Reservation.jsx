@@ -14,19 +14,19 @@ const Reservation = () => {
   const navigate = useNavigate();
 
   const handleReservation = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); // Evita que el formulario se envíe usando el comportamiento predeterminado del navegador al darle click en enviar
     try {
-      const { data } = await axios.post(
+      const { data } = await axios.post( // Solicitud POST al endPoint "http://localhost:4000/api/v1/reservation/send"
         "http://localhost:4000/api/v1/reservation/send",
-        { firstName, lastName, email, phone, date, time },
+        { firstName, lastName, email, phone, date, time }, // datos del formulario que pasan como segundo argumento 
         {
-          headers: {
-            "Content-Type": "application/json",
+          headers: {   // Como  tercer argumento se pasan las opciones de la solicitud
+            "Content-Type": "application/json", // Se especifica el tipo de contenido de la solicitud es JSON 
           },
-          withCredentials: true,
+          withCredentials: true, // Se especifica que se enviaran Cookies junto a la solicitud, para permitir el intercambio de cookies entre frontend y backend
         }
       );
-      toast.success(data.message);
+      toast.success(data.message); // si es exitosa la solicitud se muestra el mensaje y se restablecen los valores de los useState del formulario 
       setFirstName("");
       setLastName("");
       setEmail("");
@@ -93,13 +93,13 @@ const Reservation = () => {
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                 />
-                <button type="submit" onClick={handleReservation}>
+              </div>
+              <button type="submit" onClick={handleReservation}>
                   RESERVE NOW{" "}
                   <span>
                     <HiOutlineArrowNarrowRight />
                   </span>
                 </button>
-              </div>
             </form>
           </div>
         </div>
