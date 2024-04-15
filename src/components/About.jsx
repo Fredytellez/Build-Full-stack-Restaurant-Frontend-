@@ -8,7 +8,7 @@ const About = () => {
         <div className="banner">
           <div className="top">
             <h1 className="heading"></h1>
-            <p>The only thing we are serious about is food</p>
+            <p>La unica cosa que sabemos hacer con amor</p>
           </div>
           <p className="mid">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
@@ -19,7 +19,7 @@ const About = () => {
             voluptatibus, rem non molestiae provident odit ducimus, ut nesciunt!
           </p>
           <Link to={"/"}>
-            Explore Menu{" "}
+            Explora el Menu{" "}
             <span>
               <HiOutlineArrowNarrowRight />
             </span>

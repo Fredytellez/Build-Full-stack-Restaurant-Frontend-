@@ -5,7 +5,7 @@ const Menu = () => {
     <section className='menu' id='menu'>
         <div className="container">
             <div className="heading_section">
-                <h1 className='heading'>POPULAR DISHES</h1>
+                <h1 className='heading'>PLATOS POPULARES</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus accusantium magni modi a ullam. Voluptatum quasi sequi sunt nobis dignissimos dolorem quod magni, nam animi?</p>
             </div>
             <div className="dishes_container">

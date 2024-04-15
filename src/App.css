@@ -17,8 +17,8 @@ nav {
   display: flex;
   max-width: 1500px;
   min-width: 1500px;
-  padding: 25px 10px 40px 10px;
-  margin-bottom: 25px;
+  padding: 25px 10px 10px 10px;
+  margin-bottom: 15px;
   justify-content: space-between;
   position: relative;
   align-items: center;
@@ -38,7 +38,7 @@ nav .logo {
   flex: 1;
   display: flex;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 nav .navLinks {
   flex: 2;
@@ -56,7 +56,7 @@ nav .navLinks .links a {
   text-decoration: none;
   color: #555;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 150;
   letter-spacing: 1.4px;
 }
 nav .navLinks .links a:hover {
@@ -70,7 +70,7 @@ nav .menuBtn {
   background: transparent;
   border: 1px solid #333;
   border-radius: 20px;
-  font-size: 16px;
+  font-size: 14px;
 }
 nav .menuBtn:hover {
   color: #fff;
@@ -87,7 +87,7 @@ nav svg {
 @media (max-width: 1520px) {
   nav {
     min-width: 100%;
-    padding: 25px 20px 40px 20px;
+    padding: 25px 20px 20px 20px;
   }
 }
 @media (max-width: 1100px) {
@@ -186,7 +186,7 @@ nav svg {
   width: 100%;
 }
 .heroSection .container .banner .title {
-  font-size: 8.5rem;
+  font-size: 6.5rem;
   font-weight: 200;
 }
 .heroSection .container .banner .textAndLogo {
@@ -774,7 +774,7 @@ nav svg {
 }
 /*********************************************************************************************************************/
 
-/******************* NOT FOUND PAGE STYLING **************/
+/******************* FOOTER STYLING **************/
 /**********************************************************************************************************************/
 footer {
   background: #f9fbf2;
@@ -893,6 +893,16 @@ footer .container .banner .right {
   font-weight: 300;
   border: none;
   border-bottom: 1px solid #333;
+  background: transparent;
+}
+
+.reservation .container .banner .reservation_form_box form label {
+  flex: 1;
+  padding: 5px 0px 5px 5px;
+  margin-right: -80px;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
   background: transparent;
 }
 .reservation
@@ -1113,6 +1123,15 @@ footer .container .banner .right {
   background: #fff;
   color: #111;
 }
+
+.notFound .container .titulo-reserva {
+  font-size: 5.5rem;
+  font-weight: 200;
+}
+.notFound .container .titulo-redireccion {
+  margin-bottom: 40px;
+}
+
 @media (max-width: 600px) {
   .notFound {
     padding: 30px 20px;

@@ -4,19 +4,19 @@
             {
                 "id": 1,
                 "image": "./quality_food.svg",
-                "title": "QUALITY FOOD",
+                "title": "COMIDA DE CALIDAD",
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
             },
             {
                 "id": 2,
                 "image": "./super_taste.svg",
-                "title": "SUPER TASTE",
+                "title": "SUPER SAZÓN",
                 "description": "Lorem ipsum dolor sit amet consectetur, adipisicing sit amet elit. Sit voluptates quaerat pariatur." 
             },
             {
                 "id": 3,
                 "image": "./fast_delivery.svg",
-                "title": "FAST DELIVERY",
+                "title": "ENTREGAS RÁPIDAS",
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
             }
         ],
@@ -24,50 +24,50 @@
             {
                 "id": 1,
                 "image": "./dinner1.jpeg",
-                "title": "ROASTED LAMB RUMP",
-                "category": "Dinner"
+                "title": "CORDERO ASADO",
+                "category": "ALMUERZO"
             },
             {
                 "id": 2,
                 "image": "./dinner2.png",
-                "title": "CITRUS CURED SALMON",
-                "category": "Dinner"
+                "title": "SALMON EN SALSA DE CÍTRICOS",
+                "category": "Cena"
             },
             {
                 "id": 3,
                 "image": "./breakfast1.png",
-                "title": "PAN SEARED SEA BASS",
-                "category": "Breakfast"
+                "title": "LUBINA AL PAN",
+                "category": "Desayuno"
             },
             {
                 "id": 4,
                 "image": "./dinner3.png",
-                "title": "STUFFED STRAWBERRY",
-                "category": "Dinner"
+                "title": "FRESA RELLENA",
+                "category": "Postre"
             },
             {
                 "id": 5,
                 "image": "./lunch1.png",
-                "title": "BEEF BURGER MEAL",
-                "category": "Lunch"
+                "title": "HAMBURGUESA DE CARNE",
+                "category": "Almuerzo"
             },
             {
                 "id": 6,
                 "image": "./dinner4.png",
-                "title": "MUSSELS SOUP",
-                "category": "Dinner"
+                "title": "SOPA DE MEJILLONES",
+                "category": "Cena"
             },
             {
                 "id": 7,
                 "image": "./dinner5.png",
-                "title": "ITALIAN SPAGHETTI",
-                "category": "Dinner"
+                "title": "SPAGHETTI ITALIANO",
+                "category": "Cena"
             },
             {
                 "id": 8,
                 "image": "./dinner6.png",
-                "title": "GRILLED FISH",
-                "category": "Dinner"
+                "title": "PESCADO ASADO",
+                "category": "Cena"
             }
         ],
         "team": [
@@ -75,25 +75,25 @@
                 "id": 1,
                 "image": "./team_member_1.png",
                 "name": "JOHNATHAN TYLER",
-                "designation": "Founder & Head Chef"
+                "designation": "Fundador y Jefe de cocina"
             },
             {
                 "id": 2,
                 "image": "./team_member_2.png",
                 "name": "WADE WARREN",
-                "designation": "Sous Chef"
+                "designation": "Segundo Chef"
             },
             {
                 "id": 3,
                 "image": "./team_member_3.png",
                 "name": "JHON DOE",
-                "designation": "Fast Food Chef"
+                "designation": "Chef de comida rápida"
             },
             {
                 "id": 4,
                 "image": "./team_member_4.png",
                 "name": "ALEX COAL",
-                "designation": "Senior Chef"
+                "designation": "Chef Senior"
             }
         ],
         "testimonials": [
@@ -123,48 +123,48 @@
             {
                 "id": 1,
                 "number": "14",
-                "title": "Restaurants"
+                "title": "Restaurantes"
             },
             {
                 "id": 2,
                 "number": "20",
-                "title": "Chef In Kitchen"
+                "title": "Chef en cocina"
             },
             {
                 "id": 3,
                 "number": "08",
-                "title": "Years Of Experience"
+                "title": "Años de experiencia "
             },
             {
                 "id": 4,
-                "number": "200",
-                "title": "Food Dishes"
+                "number": "200+",
+                "title": "Platos"
             }
         ],
         "navbarLinks": [
             {
                 "id": 1,
-                "title": "HOME",
+                "title": "INICIO",
                 "link": "heroSection"
             },
             {
                 "id": 2,
-                "title": "ABOUT US",
+                "title": "SOBRE NOSOTROS",
                 "link": "about"
             },
             {
                 "id": 3,
-                "title": "SERVICES",
+                "title": "SERVICIOS",
                 "link": "qualities"
             },
             {
                 "id": 4,
-                "title": "TEAM",
+                "title": "EQUIPO",
                 "link": "team"
             },
             {
                 "id": 5,
-                "title": "RESERVATION",
+                "title": "RESERVACIONES",
                 "link": "reservation"
             }
         ]

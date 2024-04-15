@@ -10,7 +10,7 @@ const Reservation = () => {
   const [email, setEmail] = useState("");
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
-  const [phone, setPhone] = useState(0);
+  const [phone, setPhone] = useState("");
   const navigate = useNavigate();
 
   const handleReservation = async (e) => {
@@ -32,7 +32,7 @@ const Reservation = () => {
       setEmail("");
       setDate("");
       setTime("");
-      setPhone(0);
+      setPhone("");
       navigate("/success");
     } catch (error) {
       toast.error(error.response.data.message);
@@ -53,31 +53,53 @@ const Reservation = () => {
               <div>
                 <input
                   type="text"
-                  placeholder="First Name"
+                  placeholder="Nombre"
                   value={firstName}
                   onChange={(e) => setFirstName(e.target.value)}
                 />
                 <input
                   type="text"
-                  placeholder="Last Name"
+                  placeholder="Apellido"
                   value={lastName}
                   onChange={(e) => setLastName(e.target.value)}
                 />
               </div>
-              <div>
+              {/* <div>
                 <input
                   type="date"
-                  placeholder="Date"
+                  placeholder="Fecha"
                   value={date}
                   onChange={(e) => setDate(e.target.value)}
                 />
                 <input
                   type="time"
-                  placeholder="Time"
+                  placeholder="Hora"
                   value={time}
                   onChange={(e) => setTime(e.target.value)}
                 />
-              </div>
+              </div> */}
+                <div>
+        <label htmlFor="date">Fecha reserva:</label>
+        <input
+          type="date" // Tipo "date" para el input de fecha
+          id="date"
+          name="date"
+          value={date}
+          onChange={(e)=>setDate(e.target.value)}
+          required // Campo requerido
+        />
+      </div>
+      <div>
+        <label htmlFor="time">Hora reserva</label>
+        <input
+          type="time" // Tipo "time" para el input de hora
+          id="time"
+          name="time"
+          value={time}
+          onChange={(e)=> setTime(e.target.value)}
+          required // Campo requerido
+        />
+      </div>
               <div>
                 <input
                   type="email"
@@ -88,8 +110,8 @@ const Reservation = () => {
               </div>
               <div>
                 <input
-                  type="number"
-                  placeholder="Phone"
+                  type="tel"
+                  placeholder="Teléfono"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                 />
